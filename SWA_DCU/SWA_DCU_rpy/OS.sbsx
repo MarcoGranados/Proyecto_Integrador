@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>C++</lang>
+	<BuildNo>202006101734</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID d6671c56-3e8d-452d-b149-68698c71c0d6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">OS</_name>
+			<_modifiedTimeWeak type="a">8.26.2021::21:43:48</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">8.26.2021::21:48:26</_modifiedTime>
+			<weakCGTime type="a">8.26.2021::21:43:48</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:15:6</strongCGTime>
+			<_defaultComposite type="s">GUID 181581c8-ce24-46e5-bc38-9ea6ca2c88b0</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 181581c8-ce24-46e5-bc38-9ea6ca2c88b0</value>
+				<value>GUID 10b6e792-976b-4377-a55a-bba98a2b075b</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 181581c8-ce24-46e5-bc38-9ea6ca2c88b0</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 10b6e792-976b-4377-a55a-bba98a2b075b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">FreeRTOS</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.26.2021::21:43:48</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Operating system that will be integrated in to the project in order to use OS serices ( Task Scheduler, Isr Handling, Synchronization mechanism, Communicaiton Services,...)</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">8.26.2021::21:43:48</_modifiedTime>
+			<weakCGTime type="a">8.26.2021::21:43:48</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:16:13</strongCGTime>
+			<Ports type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Ports>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>C++</lang>
+	<BuildNo>202006101734</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 3d73c286-1105-42f2-af95-c6df67fba292</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Microcontroller</_name>
+			<_modifiedTimeWeak type="a">8.26.2021::21:44:24</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">8.26.2021::21:48:26</_modifiedTime>
+			<weakCGTime type="a">8.26.2021::21:44:24</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:14:45</strongCGTime>
+			<_defaultComposite type="s">GUID fa6784f8-1698-4b55-84fc-acc905cb8179</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID fa6784f8-1698-4b55-84fc-acc905cb8179</value>
+				<value>GUID 18e1ab80-9d62-480b-b3d8-a86b470936d5</value>
+				<value>GUID adda8406-227c-4eaa-b8d6-4cc621cdc917</value>
+				<value>GUID 888ac81d-8264-4fd3-9bc4-dbccaf3cfe21</value>
+				<value>GUID 587c652d-27d8-4aa3-916a-6762cbbb50de</value>
+				<value>GUID 38f9f3b7-02c3-433a-96a0-12dc96395311</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID fa6784f8-1698-4b55-84fc-acc905cb8179</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 18e1ab80-9d62-480b-b3d8-a86b470936d5</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Adc</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.26.2021::21:15:38</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">SWC from microcontroller layer used to provide measured values from analog signals.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">8.26.2021::21:15:38</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">8.26.2021::21:15:38</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:15:48</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 6fb20d00-1da5-44ec-b637-dc28ef5eaf6b</value>
+				<value>GUID c03b7bd4-63a9-41c9-8e5d-a670d137faf9</value>
+			</AggregatesList>
+		</IClass>
+		<IPort type="e">
+			<_id type="a">GUID 6fb20d00-1da5-44ec-b637-dc28ef5eaf6b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AdcInterface</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::22:39:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::22:39:30</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iAdc</_hname>
+					<_hid type="a">GUID de744879-a73b-46d4-9699-397943199e90</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPort>
+		<IGeneralization type="e">
+			<_id type="a">GUID c03b7bd4-63a9-41c9-8e5d-a670d137faf9</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iAdc</_hname>
+					<_hid type="a">GUID de744879-a73b-46d4-9699-397943199e90</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IClass type="e">
+			<_id type="a">GUID adda8406-227c-4eaa-b8d6-4cc621cdc917</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Dio</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.26.2021::21:15:32</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">SWC from microcontroller layer used to provide services to manipulate digital outputs and read digitial inputs.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">8.26.2021::21:15:32</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">8.26.2021::21:15:32</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:15:48</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID ea710211-f728-4c2a-9ec5-b85096fa052e</value>
+				<value>GUID 3cea1d11-92a0-44fa-90c0-243f80c62a09</value>
+				<value>GUID 83a8909c-eef9-4916-8169-8df21168642b</value>
+			</AggregatesList>
+		</IClass>
+		<IType type="e">
+			<_id type="a">GUID ea710211-f728-4c2a-9ec5-b85096fa052e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">PIN_VALUE</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">DataType</_hname>
+							<_hid type="a">GUID 39bf6572-6f61-4cbf-b651-64241e075688</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.22.2021::21:54:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:54:7</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_kind type="a">Enumeration</_kind>
+			<AggregatesList type="e">
+				<value>GUID 34a1b9e7-54af-4942-8d81-ff9516c041e8</value>
+				<value>GUID fa552136-67d7-40f9-ade1-acd84c2747c2</value>
+			</AggregatesList>
+		</IType>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 34a1b9e7-54af-4942-8d81-ff9516c041e8</_id>
+			<_name type="a">DIO_LOW</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:54:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:54:3</_modifiedTime>
+			<_value type="a">0</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID fa552136-67d7-40f9-ade1-acd84c2747c2</_id>
+			<_name type="a">DIO_HIGH</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:54:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:54:7</_modifiedTime>
+			<_value type="a">1</_value>
+		</IEnumerationLiteral>
+		<IPort type="e">
+			<_id type="a">GUID 3cea1d11-92a0-44fa-90c0-243f80c62a09</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DigitalInputOutput</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::22:40:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::22:40:26</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iDio</_hname>
+					<_hid type="a">GUID 81dea518-90a8-4e3f-9c8c-bb79de0dff0d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPort>
+		<IGeneralization type="e">
+			<_id type="a">GUID 83a8909c-eef9-4916-8169-8df21168642b</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iDio</_hname>
+					<_hid type="a">GUID 81dea518-90a8-4e3f-9c8c-bb79de0dff0d</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IClass type="e">
+			<_id type="a">GUID 888ac81d-8264-4fd3-9bc4-dbccaf3cfe21</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Mpu</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.26.2021::21:44:45</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">SWC from microcontroller layer used to provide services to configure and operate Memory protection Unit peripheral.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">8.26.2021::21:44:45</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">8.26.2021::21:44:45</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:15:48</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 685d8c25-9811-4197-8461-f08d607fd85c</value>
+				<value>GUID 3d3aaf55-678d-43fc-a8b6-1b2f322eca0f</value>
+			</AggregatesList>
+		</IClass>
+		<IPort type="e">
+			<_id type="a">GUID 685d8c25-9811-4197-8461-f08d607fd85c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Mpu_Port</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::22:41:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::22:41:47</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iMpu</_hname>
+					<_hid type="a">GUID dd6fffbd-ba35-46e2-8285-1fdaffdfb3ef</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPort>
+		<IGeneralization type="e">
+			<_id type="a">GUID 3d3aaf55-678d-43fc-a8b6-1b2f322eca0f</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iMpu</_hname>
+					<_hid type="a">GUID dd6fffbd-ba35-46e2-8285-1fdaffdfb3ef</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IClass type="e">
+			<_id type="a">GUID 587c652d-27d8-4aa3-916a-6762cbbb50de</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Wdg</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.26.2021::21:45:20</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">SWC from microcontroller layer used to provide services to Configure and Feed microcontroller watchdog.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">8.26.2021::21:45:20</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">8.26.2021::21:45:20</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:15:48</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID d606b3bd-160d-42fb-a1a5-73da8142de79</value>
+				<value>GUID a57facb6-8658-43fa-8cd2-e5eff9639ae3</value>
+			</AggregatesList>
+		</IClass>
+		<IPort type="e">
+			<_id type="a">GUID d606b3bd-160d-42fb-a1a5-73da8142de79</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Wdg_Port</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::22:42:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::22:42:23</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iWdg</_hname>
+					<_hid type="a">GUID af00f1b7-a44d-4373-92c5-52ff119682d8</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPort>
+		<IGeneralization type="e">
+			<_id type="a">GUID a57facb6-8658-43fa-8cd2-e5eff9639ae3</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iWdg</_hname>
+					<_hid type="a">GUID af00f1b7-a44d-4373-92c5-52ff119682d8</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IClass type="e">
+			<_id type="a">GUID 38f9f3b7-02c3-433a-96a0-12dc96395311</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Mcu</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.26.2021::21:44:24</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">SWC from microcontroller layer used to provide services to configure microcontroller core.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">8.26.2021::21:44:24</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">8.26.2021::21:44:24</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:16:10</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 2ff07847-c334-442d-9de0-2915cfc16899</value>
+				<value>GUID c94209c5-4cc7-46c5-a3b4-f271be828986</value>
+			</AggregatesList>
+		</IClass>
+		<IPort type="e">
+			<_id type="a">GUID 2ff07847-c334-442d-9de0-2915cfc16899</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Mcu_Port</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::22:41:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::22:41:53</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iMcu</_hname>
+					<_hid type="a">GUID 12b3938c-064d-456e-8f66-3b61453b49f8</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPort>
+		<IGeneralization type="e">
+			<_id type="a">GUID c94209c5-4cc7-46c5-a3b4-f271be828986</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iMcu</_hname>
+					<_hid type="a">GUID 12b3938c-064d-456e-8f66-3b61453b49f8</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

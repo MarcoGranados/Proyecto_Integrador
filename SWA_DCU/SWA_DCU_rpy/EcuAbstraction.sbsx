@@ -1,0 +1,1689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>C++</lang>
+	<BuildNo>202006101734</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 9675341a-61f7-49ca-89f9-e723cf23efd1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">EcuAbstraction</_name>
+			<_modifiedTimeWeak type="a">8.27.2021::6:15:18</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">8.27.2021::5:33:54</_modifiedTime>
+			<weakCGTime type="a">8.27.2021::6:15:18</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:14:39</strongCGTime>
+			<_defaultComposite type="s">GUID 72973608-1adb-4372-ae39-f44d3f2b028d</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 72973608-1adb-4372-ae39-f44d3f2b028d</value>
+				<value>GUID 7464d41a-f67a-45af-809d-796c32f16e16</value>
+				<value>GUID 3ff92c0c-4e6e-4f8f-ac9f-7b20c79bfa36</value>
+				<value>GUID 32334af5-6d67-45b2-9c62-6be10af0bf29</value>
+				<value>GUID 47dbe559-2339-44c3-9a8e-74ee7adf6cf1</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 72973608-1adb-4372-ae39-f44d3f2b028d</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 7464d41a-f67a-45af-809d-796c32f16e16</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Button</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:15:20</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang2058{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset2 Symbol;}}%0D
+\viewkind4\uc1\pard\fs20 SWC from EcuAbstraction layer responsible to implement all the logic for Button handling on the ECU. \par%0D
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 It is responsible to deternine button status and report them to corresponding Application SWC for every button on ECU.\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">8.27.2021::6:15:20</_modifiedTime>
+			<_lastID type="a">7</_lastID>
+			<weakCGTime type="a">8.27.2021::6:15:20</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:16:1</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID cc6f8a89-5fb7-4f16-b10b-70cef95f92c5</value>
+				<value>GUID 489be5f9-56d0-4997-bdbd-557801efd77c</value>
+				<value>GUID f9a532ee-12b6-46b0-aa9d-bad867b9a01c</value>
+				<value>GUID 621e7bce-5aab-48bb-bd62-310bb40ac104</value>
+				<value>GUID 0055dd23-2307-4042-bdd0-b9fc6e4451ad</value>
+				<value>GUID f010a081-8d12-4f11-9340-d191ab210661</value>
+				<value>GUID 11e782be-2de2-4adb-9f1b-c628c2755f65</value>
+				<value>GUID c93358bb-0588-4ba2-8601-ad09bb2c703a</value>
+			</AggregatesList>
+		</IClass>
+		<IDependency type="e">
+			<_id type="a">GUID cc6f8a89-5fb7-4f16-b10b-70cef95f92c5</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_124</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:15:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::6:15:18</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_124</_hname>
+					<_hid type="a">GUID 44ae8a33-5d37-40a5-a0e4-dbc3d3215c5f</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 7464d41a-f67a-45af-809d-796c32f16e16</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 489be5f9-56d0-4997-bdbd-557801efd77c</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_125</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:15:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::6:15:20</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_125</_hname>
+					<_hid type="a">GUID 7001449a-3718-4909-a315-02ec0e642c4f</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 7464d41a-f67a-45af-809d-796c32f16e16</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID f9a532ee-12b6-46b0-aa9d-bad867b9a01c</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_126</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:15:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::6:15:20</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_126</_hname>
+					<_hid type="a">GUID b4792726-2db7-4a51-818e-9d99acb7f287</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 7464d41a-f67a-45af-809d-796c32f16e16</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IType type="e">
+			<_id type="a">GUID 621e7bce-5aab-48bb-bd62-310bb40ac104</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">BUTTON_STATUS</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">DataType</_hname>
+							<_hid type="a">GUID 39bf6572-6f61-4cbf-b651-64241e075688</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.22.2021::21:18:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:18:54</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<_kind type="a">Enumeration</_kind>
+			<AggregatesList type="e">
+				<value>GUID 29dd1783-cb60-424c-a984-8140498d9d94</value>
+				<value>GUID 3e960f71-a06f-492b-ac84-3f15eaf8981b</value>
+				<value>GUID e30e56ce-f1ab-4139-aa45-69d77f92cd3f</value>
+				<value>GUID 759fff3a-7a5e-4c4a-8fa5-3eba73105016</value>
+			</AggregatesList>
+		</IType>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 29dd1783-cb60-424c-a984-8140498d9d94</_id>
+			<_name type="a">BUTTON_NOT_PRESSED</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:18:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:18:37</_modifiedTime>
+			<_value type="a">0</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 3e960f71-a06f-492b-ac84-3f15eaf8981b</_id>
+			<_name type="a">BUTTON_PRESSED</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:18:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:18:43</_modifiedTime>
+			<_value type="a">1</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID e30e56ce-f1ab-4139-aa45-69d77f92cd3f</_id>
+			<_name type="a">BUTTON_LONG_PRESSED</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:18:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:18:50</_modifiedTime>
+			<_value type="a">2</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 759fff3a-7a5e-4c4a-8fa5-3eba73105016</_id>
+			<_name type="a">BUTTON_STUCK</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:18:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:18:54</_modifiedTime>
+			<_value type="a">3</_value>
+		</IEnumerationLiteral>
+		<IPort type="e">
+			<_id type="a">GUID 0055dd23-2307-4042-bdd0-b9fc6e4451ad</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ButtonInterfaces</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::22:38:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::22:38:59</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iButton</_hname>
+					<_hid type="a">GUID 9688ca0a-6ee1-4406-b8df-bba969e1da4e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPort>
+		<IPort type="e">
+			<_id type="a">GUID f010a081-8d12-4f11-9340-d191ab210661</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Dio</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::22:51:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::22:51:42</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iDio</_hname>
+					<_hid type="a">GUID 81dea518-90a8-4e3f-9c8c-bb79de0dff0d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_reversed type="a">1</_reversed>
+		</IPort>
+		<IPort type="e">
+			<_id type="a">GUID 11e782be-2de2-4adb-9f1b-c628c2755f65</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HwConfig</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::22:53:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::22:53:25</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iHwConfig</_hname>
+					<_hid type="a">GUID 4ae14eb6-e53d-4d4a-ab00-95ca5b500ba4</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_reversed type="a">1</_reversed>
+		</IPort>
+		<IGeneralization type="e">
+			<_id type="a">GUID c93358bb-0588-4ba2-8601-ad09bb2c703a</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iButton</_hname>
+					<_hid type="a">GUID 9688ca0a-6ee1-4406-b8df-bba969e1da4e</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IClass type="e">
+			<_id type="a">GUID 3ff92c0c-4e6e-4f8f-ac9f-7b20c79bfa36</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Door</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:15:54</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang2058{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset2 Symbol;}}%0D
+\viewkind4\uc1\pard\fs20 SWC from EcuAbstraction layer responsible to implement all the services to control the Door Lock on the ECU. \par%0D
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 It is responsible to attend request from application to manipulate Door locking operations. \par%0D
+{\pntext\f1\'B7\tab}It is also resposible to determine and provide lock status to Application.\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">8.27.2021::6:15:54</_modifiedTime>
+			<_lastID type="a">12</_lastID>
+			<weakCGTime type="a">8.27.2021::6:15:54</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:16:1</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID bf349077-0d48-4a9c-8c3e-757052043528</value>
+				<value>GUID ab5145ee-e2eb-498d-8335-b344f247f5ad</value>
+				<value>GUID 3a1ec9b0-55ee-4b9f-8431-c231765d8727</value>
+				<value>GUID 5cef0b62-4226-4bcc-9b0e-8216bb48a9a2</value>
+				<value>GUID 4cf8b755-4c67-4c22-9658-74cc2e5c1364</value>
+				<value>GUID 85d79210-939f-47e1-b504-04b638f053df</value>
+				<value>GUID 05ea06d3-6111-4a8f-925c-49dab629f6db</value>
+				<value>GUID 36034f1a-c473-4a32-a100-1eed9690fc36</value>
+				<value>GUID 22eaed90-28c0-4616-b747-59e5c4b71089</value>
+				<value>GUID 0ddc6bc3-3039-4d15-aa97-6e33d2f8050f</value>
+				<value>GUID d2527ba0-3d6e-4a28-af98-4f6e87475776</value>
+				<value>GUID c5fca4d1-8521-4bd2-a9a0-83e38dd230d8</value>
+				<value>GUID bfe77edb-071d-4d69-ba8a-605fde605f67</value>
+			</AggregatesList>
+		</IClass>
+		<IDependency type="e">
+			<_id type="a">GUID bf349077-0d48-4a9c-8c3e-757052043528</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_21</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::5:55:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::5:55:7</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_21</_hname>
+					<_hid type="a">GUID d2f9fc3d-afb1-4967-afea-cc22d3861a1b</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 3ff92c0c-4e6e-4f8f-ac9f-7b20c79bfa36</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID ab5145ee-e2eb-498d-8335-b344f247f5ad</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_23</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::5:55:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::5:55:9</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_23</_hname>
+					<_hid type="a">GUID 092d7beb-2589-400b-af7a-55cd6c5e67a6</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 3ff92c0c-4e6e-4f8f-ac9f-7b20c79bfa36</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 3a1ec9b0-55ee-4b9f-8431-c231765d8727</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_24</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::5:55:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::5:55:11</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_24</_hname>
+					<_hid type="a">GUID 98d45d90-59dd-4e02-8b18-5f4d2ed27590</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 3ff92c0c-4e6e-4f8f-ac9f-7b20c79bfa36</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 5cef0b62-4226-4bcc-9b0e-8216bb48a9a2</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_25</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::5:55:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::5:55:15</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_25</_hname>
+					<_hid type="a">GUID 3fa0ec37-0bef-4075-affe-1669f9d32428</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 3ff92c0c-4e6e-4f8f-ac9f-7b20c79bfa36</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 4cf8b755-4c67-4c22-9658-74cc2e5c1364</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_137</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:15:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::6:15:51</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_137</_hname>
+					<_hid type="a">GUID 2a32a3aa-ca12-482a-9eff-1af1320cc80f</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 3ff92c0c-4e6e-4f8f-ac9f-7b20c79bfa36</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 85d79210-939f-47e1-b504-04b638f053df</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_138</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:15:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::6:15:53</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_138</_hname>
+					<_hid type="a">GUID 3083abc2-59a0-4c53-bdf0-fc0d541bc0f4</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 3ff92c0c-4e6e-4f8f-ac9f-7b20c79bfa36</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 05ea06d3-6111-4a8f-925c-49dab629f6db</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_139</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:15:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::6:15:54</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_139</_hname>
+					<_hid type="a">GUID e942362f-e5e1-4d8d-b9a9-1e4adf36ae52</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 3ff92c0c-4e6e-4f8f-ac9f-7b20c79bfa36</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IType type="e">
+			<_id type="a">GUID 36034f1a-c473-4a32-a100-1eed9690fc36</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DOOR_STATUS</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">DataType</_hname>
+							<_hid type="a">GUID 39bf6572-6f61-4cbf-b651-64241e075688</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.22.2021::21:8:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:8:54</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<_kind type="a">Enumeration</_kind>
+			<AggregatesList type="e">
+				<value>GUID 12ccff24-4f89-42f2-8daf-8fff0fcd47e7</value>
+				<value>GUID da048450-e040-4b2d-9cda-c8085ed3eaff</value>
+				<value>GUID 6261963d-3402-4c1d-9271-086151eec56f</value>
+				<value>GUID 2b1ff98d-9476-43d3-843c-64c482159339</value>
+			</AggregatesList>
+		</IType>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 12ccff24-4f89-42f2-8daf-8fff0fcd47e7</_id>
+			<_name type="a">DOOR_STATUS_LOCKED</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:8:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:8:33</_modifiedTime>
+			<_value type="a">0</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID da048450-e040-4b2d-9cda-c8085ed3eaff</_id>
+			<_name type="a">DOOR_STATUS_UNLOCKED</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:8:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:8:40</_modifiedTime>
+			<_value type="a">1</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 6261963d-3402-4c1d-9271-086151eec56f</_id>
+			<_name type="a">DOOR_STATUS_UNKNOWN</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:8:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:8:47</_modifiedTime>
+			<_value type="a">2</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 2b1ff98d-9476-43d3-843c-64c482159339</_id>
+			<_name type="a">DOOR_STATUS_ERROR</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:8:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:8:54</_modifiedTime>
+			<_value type="a">3</_value>
+		</IEnumerationLiteral>
+		<IType type="e">
+			<_id type="a">GUID 22eaed90-28c0-4616-b747-59e5c4b71089</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DOOR_REQUEST</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">DataType</_hname>
+							<_hid type="a">GUID 39bf6572-6f61-4cbf-b651-64241e075688</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.22.2021::21:9:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:9:32</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<_kind type="a">Enumeration</_kind>
+			<AggregatesList type="e">
+				<value>GUID 0fdbe4d2-0ca0-43f3-a1e6-d9fc756aa89a</value>
+				<value>GUID 51c51981-ce72-41b4-92db-ed4df4563135</value>
+				<value>GUID ce669923-0db2-4dd9-b05b-0cd69fa48c64</value>
+			</AggregatesList>
+		</IType>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 0fdbe4d2-0ca0-43f3-a1e6-d9fc756aa89a</_id>
+			<_name type="a">DOOR_REQUEST_NONE</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:9:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:9:19</_modifiedTime>
+			<_value type="a">0</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 51c51981-ce72-41b4-92db-ed4df4563135</_id>
+			<_name type="a">DOOR_REQUEST_LOCK</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:9:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:9:27</_modifiedTime>
+			<_value type="a">1</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID ce669923-0db2-4dd9-b05b-0cd69fa48c64</_id>
+			<_name type="a">DOOR_REQUEST_UNLOCK</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:9:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:9:32</_modifiedTime>
+			<_value type="a">2</_value>
+		</IEnumerationLiteral>
+		<IPort type="e">
+			<_id type="a">GUID 0ddc6bc3-3039-4d15-aa97-6e33d2f8050f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DoorLockControlInterfaces</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::22:29:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::22:29:14</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iDoor</_hname>
+					<_hid type="a">GUID 49323650-eb37-41ed-a7cc-1a6a5f9762a3</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPort>
+		<IPort type="e">
+			<_id type="a">GUID d2527ba0-3d6e-4a28-af98-4f6e87475776</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Dio</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::22:57:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::22:57:43</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iDio</_hname>
+					<_hid type="a">GUID 81dea518-90a8-4e3f-9c8c-bb79de0dff0d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_reversed type="a">1</_reversed>
+		</IPort>
+		<IPort type="e">
+			<_id type="a">GUID c5fca4d1-8521-4bd2-a9a0-83e38dd230d8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HwConfig</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::22:58:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::22:58:27</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iHwConfig</_hname>
+					<_hid type="a">GUID 4ae14eb6-e53d-4d4a-ab00-95ca5b500ba4</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_reversed type="a">1</_reversed>
+		</IPort>
+		<IGeneralization type="e">
+			<_id type="a">GUID bfe77edb-071d-4d69-ba8a-605fde605f67</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iDoor</_hname>
+					<_hid type="a">GUID 49323650-eb37-41ed-a7cc-1a6a5f9762a3</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IClass type="e">
+			<_id type="a">GUID 32334af5-6d67-45b2-9c62-6be10af0bf29</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HwConfig</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:17:23</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang2058{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset2 Symbol;}}%0D
+\viewkind4\uc1\pard\fs20 SWC from EcuAbstraction layer responsible to implement all the services to control the Window on the ECU. \par%0D
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 It reports information for hardware configuration that is useful for variant handling\par%0D
+\pard\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">8.27.2021::6:17:23</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<weakCGTime type="a">8.27.2021::6:17:23</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:16:1</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID d71b3a70-9349-4da3-b172-751e27c56642</value>
+				<value>GUID 5e504b4d-0e3d-4ae7-8110-1f778f52d8c4</value>
+				<value>GUID f9659bdc-bd20-4615-a357-ef9d675103e6</value>
+				<value>GUID 166afb8c-3489-4ad7-a6c5-d3da4ab8e6a4</value>
+				<value>GUID b68c7c32-916e-44f7-89b9-45f54a13071f</value>
+			</AggregatesList>
+		</IClass>
+		<IDependency type="e">
+			<_id type="a">GUID d71b3a70-9349-4da3-b172-751e27c56642</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_152</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:17:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::6:17:23</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_152</_hname>
+					<_hid type="a">GUID f77f462e-4d81-4868-a1cc-875067eb13ed</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 32334af5-6d67-45b2-9c62-6be10af0bf29</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IType type="e">
+			<_id type="a">GUID 5e504b4d-0e3d-4ae7-8110-1f778f52d8c4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HW_CONFIG</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">DataType</_hname>
+							<_hid type="a">GUID 39bf6572-6f61-4cbf-b651-64241e075688</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.22.2021::20:50:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:50:39</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<_kind type="a">Enumeration</_kind>
+			<AggregatesList type="e">
+				<value>GUID 37d93baf-5d7d-4475-be38-6d945d3ab687</value>
+				<value>GUID 7e00ce5b-13f1-4ee8-8977-3ff93c0c925f</value>
+				<value>GUID 9afc0c22-7fd7-441a-be9d-a559bc04977b</value>
+				<value>GUID fec75366-8510-4fee-9b23-b5b71b4b1fba</value>
+				<value>GUID 0b4d4e1a-e53a-466f-a8ea-54c9012190a4</value>
+			</AggregatesList>
+		</IType>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 37d93baf-5d7d-4475-be38-6d945d3ab687</_id>
+			<_name type="a">HWCONFIG_UNKNOWN</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:50:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:50:14</_modifiedTime>
+			<_value type="a">0</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 7e00ce5b-13f1-4ee8-8977-3ff93c0c925f</_id>
+			<_name type="a">HWCONFIG_DRIVER</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:50:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:50:19</_modifiedTime>
+			<_value type="a">1</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 9afc0c22-7fd7-441a-be9d-a559bc04977b</_id>
+			<_name type="a">HWCONFIG_PASSENGER</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:50:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:50:26</_modifiedTime>
+			<_value type="a">2</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID fec75366-8510-4fee-9b23-b5b71b4b1fba</_id>
+			<_name type="a">HWCONFIG_REAR_LEFT</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:50:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:50:33</_modifiedTime>
+			<_value type="a">4</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 0b4d4e1a-e53a-466f-a8ea-54c9012190a4</_id>
+			<_name type="a">HWCONFIG_REAR_RIGHT</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:50:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:50:39</_modifiedTime>
+			<_value type="a">8</_value>
+		</IEnumerationLiteral>
+		<IPort type="e">
+			<_id type="a">GUID f9659bdc-bd20-4615-a357-ef9d675103e6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HwConfig</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::22:25:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::22:25:0</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iHwConfig</_hname>
+					<_hid type="a">GUID 4ae14eb6-e53d-4d4a-ab00-95ca5b500ba4</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPort>
+		<IPort type="e">
+			<_id type="a">GUID 166afb8c-3489-4ad7-a6c5-d3da4ab8e6a4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Dio</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::22:55:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::22:55:7</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iDio</_hname>
+					<_hid type="a">GUID 81dea518-90a8-4e3f-9c8c-bb79de0dff0d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_reversed type="a">1</_reversed>
+		</IPort>
+		<IGeneralization type="e">
+			<_id type="a">GUID b68c7c32-916e-44f7-89b9-45f54a13071f</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iHwConfig</_hname>
+					<_hid type="a">GUID 4ae14eb6-e53d-4d4a-ab00-95ca5b500ba4</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		<IClass type="e">
+			<_id type="a">GUID 47dbe559-2339-44c3-9a8e-74ee7adf6cf1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Window</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:17:6</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang2058{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset2 Symbol;}}%0D
+\viewkind4\uc1\pard\fs20 SWC from EcuAbstraction layer responsible to implement all the services to control the Window on the ECU. \par%0D
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 It is responsible to attend request from application to operate window control operations. \par%0D
+{\pntext\f1\'B7\tab}It is also resposible to determine and provide window status to Application.\par%0D
+{\pntext\f1\'B7\tab}It also implements Antipinch functionality.\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">8.27.2021::6:17:6</_modifiedTime>
+			<_lastID type="a">14</_lastID>
+			<weakCGTime type="a">8.27.2021::6:17:6</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:16:1</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 81dedc03-6468-4f5e-a032-76afefeec4f0</value>
+				<value>GUID 8c9bbf47-3c2e-43d0-925c-5112e7f8bd2d</value>
+				<value>GUID 50c7c771-5605-4257-8516-c573c6aec48f</value>
+				<value>GUID 49225f5f-0f91-4aa1-859d-0ca54bd48184</value>
+				<value>GUID c9b7cd49-9608-4377-a467-06c66c875797</value>
+				<value>GUID 5f6c3847-275d-4a1e-b5bf-6c79cb90db78</value>
+				<value>GUID 2810a46b-6e9c-42dc-b13b-9836d1a52dd1</value>
+				<value>GUID 9c04edca-985e-44b7-868d-99a7b31b9665</value>
+				<value>GUID fde12046-4204-45e6-a071-e5a021c89690</value>
+				<value>GUID 2a895cc3-07ce-4cef-8bd1-c7dcf1abf8b2</value>
+				<value>GUID 4c130f87-a2c8-4d65-8304-d303c3176629</value>
+				<value>GUID 7cdaf8c9-e036-406d-88e1-c5923bedc6f7</value>
+				<value>GUID 1104a6d6-c391-4bab-b44b-613e8010e19c</value>
+				<value>GUID 9f242b00-49ef-4455-82e5-83afb5904518</value>
+				<value>GUID e1c4d404-6630-473d-8d7e-2c4e4d7e7534</value>
+			</AggregatesList>
+		</IClass>
+		<IDependency type="e">
+			<_id type="a">GUID 81dedc03-6468-4f5e-a032-76afefeec4f0</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_111</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:13:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::6:13:52</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_111</_hname>
+					<_hid type="a">GUID 76763982-c616-40e2-b292-a560e4f07873</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 47dbe559-2339-44c3-9a8e-74ee7adf6cf1</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 8c9bbf47-3c2e-43d0-925c-5112e7f8bd2d</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_110</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:13:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::6:13:53</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_110</_hname>
+					<_hid type="a">GUID 6eb58609-02f6-47b3-97ac-b0a127a8190d</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 47dbe559-2339-44c3-9a8e-74ee7adf6cf1</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 50c7c771-5605-4257-8516-c573c6aec48f</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_114</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:13:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::6:13:54</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_114</_hname>
+					<_hid type="a">GUID ae4b6e71-5780-4767-b271-2edf1953fc79</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 47dbe559-2339-44c3-9a8e-74ee7adf6cf1</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 49225f5f-0f91-4aa1-859d-0ca54bd48184</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_112</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:13:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::6:13:55</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_112</_hname>
+					<_hid type="a">GUID cbc7af31-bf70-44d2-9f4f-c6cf101bc61e</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 47dbe559-2339-44c3-9a8e-74ee7adf6cf1</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID c9b7cd49-9608-4377-a467-06c66c875797</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_113</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:13:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::6:13:56</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_113</_hname>
+					<_hid type="a">GUID 55a87282-877e-4494-84cd-e835890d917e</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 47dbe559-2339-44c3-9a8e-74ee7adf6cf1</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 5f6c3847-275d-4a1e-b5bf-6c79cb90db78</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_141</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:17:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::6:17:5</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_141</_hname>
+					<_hid type="a">GUID e9683a5f-5835-47c4-9cd4-244692a1a3e7</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 47dbe559-2339-44c3-9a8e-74ee7adf6cf1</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 2810a46b-6e9c-42dc-b13b-9836d1a52dd1</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DCU_SWR_142</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.27.2021::6:17:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::6:17:6</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\DCU_Requirements.sbsx</_hfilename>
+					<_hsubsystem type="a">DCU_Requirements</_hsubsystem>
+					<_hname type="a">DCU_SWR_142</_hname>
+					<_hid type="a">GUID a34be8fe-7619-4ad6-bc37-aed8ecc64561</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 47dbe559-2339-44c3-9a8e-74ee7adf6cf1</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IType type="e">
+			<_id type="a">GUID 9c04edca-985e-44b7-868d-99a7b31b9665</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">WINDOW_OPERATION</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">DataType</_hname>
+							<_hid type="a">GUID 39bf6572-6f61-4cbf-b651-64241e075688</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.22.2021::20:45:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:45:11</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<_kind type="a">Enumeration</_kind>
+			<AggregatesList type="e">
+				<value>GUID a86c3fd5-fda0-4341-9d69-0535f7aac092</value>
+				<value>GUID a6bf4b1c-2d20-49c0-af70-4f1b95318147</value>
+				<value>GUID 9dd462f2-ff0a-442b-8f7d-1ff8f5ddc6db</value>
+			</AggregatesList>
+		</IType>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID a86c3fd5-fda0-4341-9d69-0535f7aac092</_id>
+			<_name type="a">WINDOW_OPERATION_IDLE</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:44:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:44:59</_modifiedTime>
+			<_value type="a">0</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID a6bf4b1c-2d20-49c0-af70-4f1b95318147</_id>
+			<_name type="a">WINDOW_OPERATION_UP</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:45:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:45:5</_modifiedTime>
+			<_value type="a">1</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 9dd462f2-ff0a-442b-8f7d-1ff8f5ddc6db</_id>
+			<_name type="a">WINDOW_OPERATION_DOWN</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:45:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:45:11</_modifiedTime>
+			<_value type="a">2</_value>
+		</IEnumerationLiteral>
+		<IType type="e">
+			<_id type="a">GUID fde12046-4204-45e6-a071-e5a021c89690</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">WINDOW_REQUEST</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">DataType</_hname>
+							<_hid type="a">GUID 39bf6572-6f61-4cbf-b651-64241e075688</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.22.2021::20:45:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:45:57</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<_kind type="a">Enumeration</_kind>
+			<AggregatesList type="e">
+				<value>GUID 2279de32-51d1-4468-8102-6f4ee52b01e8</value>
+				<value>GUID 77af4671-dcbe-4dcd-b3be-114ee45283cb</value>
+				<value>GUID bddf383e-ff42-4a33-9d3f-11b8c2e946f5</value>
+			</AggregatesList>
+		</IType>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 2279de32-51d1-4468-8102-6f4ee52b01e8</_id>
+			<_name type="a">WINDOW_REQUEST_IDLE</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:45:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:45:44</_modifiedTime>
+			<_value type="a">0</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 77af4671-dcbe-4dcd-b3be-114ee45283cb</_id>
+			<_name type="a">WINDOW_REQUEST_UP</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:45:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:45:50</_modifiedTime>
+			<_value type="a">1</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID bddf383e-ff42-4a33-9d3f-11b8c2e946f5</_id>
+			<_name type="a">WINDOW_REQUEST_DOWN</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:45:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:45:57</_modifiedTime>
+			<_value type="a">2</_value>
+		</IEnumerationLiteral>
+		<IType type="e">
+			<_id type="a">GUID 2a895cc3-07ce-4cef-8bd1-c7dcf1abf8b2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">WINDOW_STATUS</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">DataType</_hname>
+							<_hid type="a">GUID 39bf6572-6f61-4cbf-b651-64241e075688</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.22.2021::20:47:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:47:50</_modifiedTime>
+			<_lastID type="a">14</_lastID>
+			<_kind type="a">Enumeration</_kind>
+			<AggregatesList type="e">
+				<value>GUID 2e835d51-2cae-482c-98bf-b351ad7a5ffe</value>
+				<value>GUID 2a8f8e7c-db3e-45fd-ba4f-8c521a1a23d0</value>
+				<value>GUID 74ee11b0-8ed4-43ba-8f2c-34dd4136fdaf</value>
+				<value>GUID e36fb333-b5d1-4894-b6ad-eadb4b124757</value>
+				<value>GUID acbf886f-d929-4b07-9eb0-587950f620dd</value>
+				<value>GUID 79e6efe2-a01f-4fe6-ac93-1761498b8ad4</value>
+				<value>GUID 7538b192-34e5-411c-b619-7cf52ab3810e</value>
+				<value>GUID ef496563-6c93-4906-ba23-cb14afbc2792</value>
+				<value>GUID 7fed49e3-0eec-4217-a875-ae6a91242042</value>
+				<value>GUID 97d7fc29-af36-4e75-9a04-38226bdd0c19</value>
+				<value>GUID 62ea0691-744b-4ff2-9658-fe1c62fff92a</value>
+				<value>GUID 15a12117-c488-4b50-9f81-4c03ae7f3632</value>
+			</AggregatesList>
+		</IType>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 2e835d51-2cae-482c-98bf-b351ad7a5ffe</_id>
+			<_name type="a">WINDOW_POSITION_OPEN</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:46:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:46:22</_modifiedTime>
+			<_value type="a">0</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 2a8f8e7c-db3e-45fd-ba4f-8c521a1a23d0</_id>
+			<_name type="a">WINDOW_POSITION_1</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:46:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:46:26</_modifiedTime>
+			<_value type="a">1</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 74ee11b0-8ed4-43ba-8f2c-34dd4136fdaf</_id>
+			<_name type="a">WINDOW_POSITION_2</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:47:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:47:18</_modifiedTime>
+			<_value type="a">2</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID e36fb333-b5d1-4894-b6ad-eadb4b124757</_id>
+			<_name type="a">WINDOW_POSITION_3</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:47:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:47:20</_modifiedTime>
+			<_value type="a">3</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID acbf886f-d929-4b07-9eb0-587950f620dd</_id>
+			<_name type="a">WINDOW_POSITION_4</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:47:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:47:22</_modifiedTime>
+			<_value type="a">4</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 79e6efe2-a01f-4fe6-ac93-1761498b8ad4</_id>
+			<_name type="a">WINDOW_POSITION_5</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:47:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:47:25</_modifiedTime>
+			<_value type="a">5</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 7538b192-34e5-411c-b619-7cf52ab3810e</_id>
+			<_name type="a">WINDOW_POSITION_6</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:47:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:47:27</_modifiedTime>
+			<_value type="a">6</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID ef496563-6c93-4906-ba23-cb14afbc2792</_id>
+			<_name type="a">WINDOW_POSITION_7</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:47:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:47:31</_modifiedTime>
+			<_value type="a">7</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 7fed49e3-0eec-4217-a875-ae6a91242042</_id>
+			<_name type="a">WINDOW_POSITION_8</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:47:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:47:34</_modifiedTime>
+			<_value type="a">8</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 97d7fc29-af36-4e75-9a04-38226bdd0c19</_id>
+			<_name type="a">WINDOW_POSITION_9</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:47:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:47:39</_modifiedTime>
+			<_value type="a">9</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 62ea0691-744b-4ff2-9658-fe1c62fff92a</_id>
+			<_name type="a">WINDOW_POSITION_CLOSED</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:47:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:47:42</_modifiedTime>
+			<_value type="a">10</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 15a12117-c488-4b50-9f81-4c03ae7f3632</_id>
+			<_name type="a">WINDOW_POSITION_ERROR</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::20:47:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::20:47:45</_modifiedTime>
+			<_value type="a">255</_value>
+		</IEnumerationLiteral>
+		<IPort type="e">
+			<_id type="a">GUID 4c130f87-a2c8-4d65-8304-d303c3176629</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">WindowControlInterfaces</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::22:29:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::22:29:6</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iWindow</_hname>
+					<_hid type="a">GUID 37233c49-589e-42be-bf57-8e9e65e209a3</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPort>
+		<IPort type="e">
+			<_id type="a">GUID 7cdaf8c9-e036-406d-88e1-c5923bedc6f7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Adc</_name>
+			<_modifiedTimeWeak type="a">8.27.2021::5:30:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::5:30:47</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iAdc</_hname>
+					<_hid type="a">GUID de744879-a73b-46d4-9699-397943199e90</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_reversed type="a">1</_reversed>
+		</IPort>
+		<IPort type="e">
+			<_id type="a">GUID 1104a6d6-c391-4bab-b44b-613e8010e19c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Dio</_name>
+			<_modifiedTimeWeak type="a">8.27.2021::5:31:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::5:31:38</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iDio</_hname>
+					<_hid type="a">GUID 81dea518-90a8-4e3f-9c8c-bb79de0dff0d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_reversed type="a">1</_reversed>
+		</IPort>
+		<IPort type="e">
+			<_id type="a">GUID 9f242b00-49ef-4455-82e5-83afb5904518</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HwCfg</_name>
+			<_modifiedTimeWeak type="a">8.27.2021::5:34:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.27.2021::5:34:0</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iHwConfig</_hname>
+					<_hid type="a">GUID 4ae14eb6-e53d-4d4a-ab00-95ca5b500ba4</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_reversed type="a">1</_reversed>
+		</IPort>
+		<IGeneralization type="e">
+			<_id type="a">GUID e1c4d404-6630-473d-8d7e-2c4e4d7e7534</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iWindow</_hname>
+					<_hid type="a">GUID 37233c49-589e-42be-bf57-8e9e65e209a3</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

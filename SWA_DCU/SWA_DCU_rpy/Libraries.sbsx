@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>C++</lang>
+	<BuildNo>202006101734</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 2933ea19-8d40-4bc8-8404-2225e82a686d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Libraries</_name>
+			<_modifiedTimeWeak type="a">8.26.2021::21:41:9</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">8.26.2021::21:48:26</_modifiedTime>
+			<weakCGTime type="a">8.26.2021::21:41:9</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:14:57</strongCGTime>
+			<_defaultComposite type="s">GUID c0a36dcf-d115-4dad-9d66-aafe0524652e</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">8.22.2021::20:16:20</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID c0a36dcf-d115-4dad-9d66-aafe0524652e</value>
+				<value>GUID b68c7d5d-5725-407b-9dd8-fe4d98349a6b</value>
+				<value>GUID 42eadeb1-6aeb-4d61-b85c-96209b5404bf</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID c0a36dcf-d115-4dad-9d66-aafe0524652e</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID b68c7d5d-5725-407b-9dd8-fe4d98349a6b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CMAC</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.26.2021::21:41:9</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">SWC library that provides CMAC calculation services that will be used for Cybersecurity implementation.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">8.26.2021::21:41:9</_modifiedTime>
+			<weakCGTime type="a">8.26.2021::21:41:9</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:16:37</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 42eadeb1-6aeb-4d61-b85c-96209b5404bf</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CRC8</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.26.2021::21:41:41</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">SWC library that provides CRC8 calculation services that will be used for CAN integiryt check.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">8.26.2021::21:41:41</_modifiedTime>
+			<weakCGTime type="a">8.26.2021::21:41:41</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:16:37</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

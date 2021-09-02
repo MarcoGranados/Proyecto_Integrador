@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.1</version>
+	<lang>C++</lang>
+	<BuildNo>202006101734</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID f1d9673b-a9e0-4d2e-a705-3291c01dfd3e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Communication</_name>
+			<_modifiedTimeWeak type="a">8.26.2021::21:38:57</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">8.26.2021::21:48:26</_modifiedTime>
+			<weakCGTime type="a">8.26.2021::21:38:57</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:14:51</strongCGTime>
+			<_defaultComposite type="s">GUID 67f36b82-e44c-40ba-9158-12742da59dc4</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 67f36b82-e44c-40ba-9158-12742da59dc4</value>
+				<value>GUID 936d0947-61fa-444e-9bfc-1a1414b29041</value>
+				<value>GUID fba73a78-2e4f-4dbc-aa12-ad179aae6d97</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 67f36b82-e44c-40ba-9158-12742da59dc4</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 936d0947-61fa-444e-9bfc-1a1414b29041</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CalvosStack</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.26.2021::21:38:57</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang2058{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset2 Symbol;}}%0D
+\viewkind4\uc1\pard\fs20 Low layer of Communication Stack for CAN communciation. \par%0D
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 It is responsible to attend tasks for CAN message recepption and transmission. \par%0D
+{\pntext\f1\'B7\tab}For CAN message reception it routes the signals to upper layers.\par%0D
+{\pntext\f1\'B7\tab}For CAN transmitted messates it takes the signals from upper layers, package them and transmitt the CAN telegrams.\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">8.26.2021::21:38:57</_modifiedTime>
+			<weakCGTime type="a">8.26.2021::21:38:57</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:16:6</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID fba73a78-2e4f-4dbc-aa12-ad179aae6d97</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Signals</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.26.2021::21:39:53</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">bdd_LayerDiagram</_hname>
+					<_hid type="a">GUID e25c793d-71c2-4fff-bca3-658a6878e834</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang2058{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset2 Symbol;}}%0D
+\viewkind4\uc1\pard\fs20 Signal layer of Communication Stack for CAN communciation.\par%0D
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 It is responsible to provide reading services for CAN signals reception\par%0D
+{\pntext\f1\'B7\tab}It is responsible to provide writing services for CAN signals transmission\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">8.26.2021::21:39:53</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">8.26.2021::21:39:53</weakCGTime>
+			<strongCGTime type="a">8.22.2021::20:16:6</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 27d28e5f-0807-40b0-955a-1efa806c8e74</value>
+				<value>GUID a0dd84f7-6bb7-4597-9751-81a0b12f930a</value>
+				<value>GUID 39c93be2-b706-4b21-8257-6e814679018c</value>
+			</AggregatesList>
+		</IClass>
+		<IType type="e">
+			<_id type="a">GUID 27d28e5f-0807-40b0-955a-1efa806c8e74</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SIGNAL_ERROR</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">DataType</_hname>
+							<_hid type="a">GUID 39bf6572-6f61-4cbf-b651-64241e075688</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">8.22.2021::21:26:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:26:49</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<_kind type="a">Enumeration</_kind>
+			<AggregatesList type="e">
+				<value>GUID 8fe3aaa5-9754-4759-ba41-46a0067cff9a</value>
+				<value>GUID f3cc293b-887b-4ad6-a7e2-56b9809e6d96</value>
+				<value>GUID 8e2130ab-abe0-4dc6-8646-cf2352cd794f</value>
+				<value>GUID 9f978e0c-bea8-4931-9425-0148204fd5b2</value>
+			</AggregatesList>
+		</IType>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 8fe3aaa5-9754-4759-ba41-46a0067cff9a</_id>
+			<_name type="a">SIGNAL_ERROR_NO</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:26:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:26:30</_modifiedTime>
+			<_value type="a">0</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID f3cc293b-887b-4ad6-a7e2-56b9809e6d96</_id>
+			<_name type="a">SIGNAL_ERROR_NEVER_RECEIVED</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:26:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:26:36</_modifiedTime>
+			<_value type="a">1</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 8e2130ab-abe0-4dc6-8646-cf2352cd794f</_id>
+			<_name type="a">SIGNAL_ERROR_TIMEOUT</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:26:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:26:43</_modifiedTime>
+			<_value type="a">2</_value>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 9f978e0c-bea8-4931-9425-0148204fd5b2</_id>
+			<_name type="a">SIGNAL_ERROR_ERROR</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::21:26:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::21:26:49</_modifiedTime>
+			<_value type="a">3</_value>
+		</IEnumerationLiteral>
+		<IPort type="e">
+			<_id type="a">GUID a0dd84f7-6bb7-4597-9751-81a0b12f930a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CanInterfaces</_name>
+			<_modifiedTimeWeak type="a">8.22.2021::22:24:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">8.22.2021::22:24:34</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iSignals</_hname>
+					<_hid type="a">GUID 683363dd-544c-47b4-82b7-ad63f71cfeec</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPort>
+		<IGeneralization type="e">
+			<_id type="a">GUID 39c93be2-b706-4b21-8257-6e814679018c</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PhysicalArchitectureDCU.sbsx</_hfilename>
+					<_hsubsystem type="a">PhysicalArchitectureDCU</_hsubsystem>
+					<_hname type="a">iSignals</_hname>
+					<_hid type="a">GUID 683363dd-544c-47b4-82b7-ad63f71cfeec</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_inheritanceType type="a">iPublic</_inheritanceType>
+			<_isVirtual type="a">0</_isVirtual>
+		</IGeneralization>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
